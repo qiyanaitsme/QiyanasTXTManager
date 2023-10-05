@@ -1,0 +1,118 @@
+QWidget {
+    background-color: #282a36;
+}
+
+QLabel, QPlainTextEdit, QLineEdit, QTextEdit, QListView, QTreeView, QTableView, QRadioButton, QCheckBox {
+    color: #f8f8f2;
+}
+
+QTextEdit, QLineEdit, QListView, QTreeView, QTableView, QRadioButton, QCheckBox {
+    selection-background-color: #44475a;
+}
+
+QPushButton {
+    background-color: #bd93f9;
+    border: none;
+    color: #282a36;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #ff79c6;
+}
+
+QAbstractButton:hover {
+    background-color: #ff79c6;
+}
+
+QPushButton:pressed, QPushButton:focus {
+    background-color: #ff79c6;
+}
+
+QPushButton:disabled {
+    background-color: #6272a4;
+}
+
+QMainWindow::title {
+    background-color: #44475a;
+    color: #f8f8f2;
+    padding: 3px;
+}
+
+QMainWindow::close-button {
+    background-color: #ff5555;
+}
+
+QMainWindow::close-button:hover {
+    background-color: #ff1a1a;
+}
+
+QMainWindow::maximize-button {
+    background-color: #50fa7b;
+}
+
+QMainWindow::maximize-button:hover {
+    background-color: #5af78e;
+}
+
+QMainWindow::minimize-button {
+    background-color: #f1fa8c;
+}
+
+QMainWindow::minimize-button:hover {
+    background-color: #f4fa9d;
+}
+
+* {
+    border-color: #6272a4;
+}
+
+QScrollBar:vertical {
+    border: 2px solid #282a36;
+    background: #282a36;
+    width: 10px;
+    margin: 21px 0 21px 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #44475a;
+    min-height: 5px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+}
+
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    border: none;
+    background: none;
+    color: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QTabBar::tab {
+    background: #44475a;
+    color: #f8f8f2;
+    border: none;
+    padding: 8px 20px;
+}
+
+QTabBar::tab:selected {
+    background: #6272a4;
+}
+
+QTabBar::close-button {
+    image: url(close.png);
+}
+
+QTabBar::close-button:hover {
+    background: #ff5555;
+}
+
+QTabBar::close-button:pressed {
+    background: #ff1a1a;
+}
